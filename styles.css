@@ -82,16 +82,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 50px 20px 50px;
+    margin: 50px 50px;
 }
 
 .imageandtext {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 5px 50px;
     gap: 35px;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .image {
@@ -108,4 +108,18 @@ img {
 .textunderimage {
     color: #1f2937;
     max-width: 100px;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 100px 50px;
 }
