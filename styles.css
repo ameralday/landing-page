@@ -74,3 +74,38 @@ button {
    padding: 10px;
    gap: 10px;
 }
+
+.informationtext {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px 20px 50px;
+}
+
+.imageandtext {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px 50px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    flex-shrink: 0;
+    flex: 1;
+}
+
+.textunderimage {
+    color: #1f2937;
+    max-width: 100px;
+}
